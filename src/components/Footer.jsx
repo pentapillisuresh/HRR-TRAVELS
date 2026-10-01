@@ -523,43 +523,63 @@ export default function Footer() {
         </div>
 
 
-        {/* =====================================================
-            FOOTER BOTTOM
-        ===================================================== */}
-        <div
+     {/* =====================================================
+    FOOTER BOTTOM
+===================================================== */}
+<div
+  className="
+    border-t
+    border-white/15
+    bg-[#0B0D0F]/50
+  "
+>
+  <div
+    className="
+      container-page
+      flex
+      flex-col
+      justify-between
+      gap-3
+      py-5
+      text-xs
+      text-white/45
+      sm:flex-row
+      sm:items-center
+    "
+  >
+    {/* Copyright */}
+    <span>
+      © 2026 HRR Travels. All rights reserved.
+    </span>
+
+    {/* Developed By */}
+    <div className="flex flex-wrap items-center gap-4">
+      <span>
+        Self-drive car rentals • Visakhapatnam
+      </span>
+
+      <span className="hidden h-3 w-px bg-white/15 sm:block" />
+
+      <span>
+        Developed by{" "}
+        <a
+          href="https://enfynex.com"
+          target="_blank"
+          rel="noopener noreferrer"
           className="
-            border-t
-            border-white/15
-            bg-[#0B0D0F]/50
+            font-semibold
+            text-white/70
+            transition-colors
+            duration-300
+            hover:text-gold
           "
         >
-
-          <div
-            className="
-              container-page
-              flex
-              flex-col
-              justify-between
-              gap-3
-              py-5
-              text-xs
-              text-white/45
-              sm:flex-row
-              sm:items-center
-            "
-          >
-
-            <span>
-              © 2026 HRR Travels. All rights reserved.
-            </span>
-
-            <span>
-              Self-drive car rentals • Visakhapatnam
-            </span>
-
-          </div>
-
-        </div>
+          Enfynex
+        </a>
+      </span>
+    </div>
+  </div>
+</div>
 
       </div>
     </footer>
