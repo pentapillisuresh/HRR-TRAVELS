@@ -1,0 +1,193 @@
+export const cars = [
+  {
+    id: "swift-vxi",
+    name: "Maruti Swift VXI",
+    brand: "Maruti Suzuki",
+    model: "Swift VXI",
+    year: 2023,
+    price: 1299,
+    hourly: 150,
+    seats: 5,
+    transmission: "Manual",
+    fuel: "Petrol",
+    ac: true,
+    km: 150,
+    extraKm: 10,
+    deposit: 3000,
+    rating: 4.8,
+    reviews: 120,
+    image: "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=1200&q=85",
+    gallery: [
+      "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=1200&q=85",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=900&q=85",
+      "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=900&q=85"
+    ],
+    features: ["Well Maintained", "Bluetooth", "USB Charging", "Power Steering", "ABS", "Air Conditioning"]
+  },
+  {
+    id: "i20-sportz",
+    name: "Hyundai i20 Sportz",
+    brand: "Hyundai",
+    model: "i20 Sportz",
+    year: 2024,
+    price: 1499,
+    hourly: 180,
+    seats: 5,
+    transmission: "Manual",
+    fuel: "Petrol",
+    ac: true,
+    km: 150,
+    extraKm: 11,
+    deposit: 3000,
+    rating: 4.7,
+    reviews: 94,
+    image: "https://images.unsplash.com/photo-1550355291-bbee04a92027?auto=format&fit=crop&w=1200&q=85",
+    gallery: [
+      "https://images.unsplash.com/photo-1550355291-bbee04a92027?auto=format&fit=crop&w=1200&q=85",
+      "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=900&q=85"
+    ],
+    features: ["Premium Interior", "Bluetooth", "Rear Camera", "Power Steering", "ABS", "Air Conditioning"]
+  },
+  {
+    id: "innova-crysta",
+    name: "Toyota Innova Crysta",
+    brand: "Toyota",
+    model: "Innova Crysta",
+    year: 2022,
+    price: 2499,
+    hourly: 300,
+    seats: 7,
+    transmission: "Manual",
+    fuel: "Diesel",
+    ac: true,
+    km: 200,
+    extraKm: 14,
+    deposit: 5000,
+    rating: 4.9,
+    reviews: 81,
+    image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1200&q=85",
+    gallery: [
+      "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1200&q=85",
+      "https://images.unsplash.com/photo-1504215680853-026ed2a45def?auto=format&fit=crop&w=900&q=85"
+    ],
+    features: ["7 Comfortable Seats", "Cruise Control", "USB Charging", "Power Steering", "ABS", "Air Conditioning"]
+  },
+  {
+    id: "creta-sx",
+    name: "Hyundai Creta SX",
+    brand: "Hyundai",
+    model: "Creta SX",
+    year: 2024,
+    price: 2199,
+    hourly: 270,
+    seats: 5,
+    transmission: "Automatic",
+    fuel: "Petrol",
+    ac: true,
+    km: 180,
+    extraKm: 13,
+    deposit: 4000,
+    rating: 4.8,
+    reviews: 73,
+    image: "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1200&q=85",
+    gallery: [
+      "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1200&q=85",
+      "https://images.unsplash.com/photo-1619767886558-efdc259cde1a?auto=format&fit=crop&w=900&q=85"
+    ],
+    features: ["Automatic", "Sunroof", "Bluetooth", "Rear Camera", "ABS", "Air Conditioning"]
+  },
+  {
+    id: "seltos-gtx",
+    name: "Kia Seltos GTX",
+    brand: "Kia",
+    model: "Seltos GTX",
+    year: 2024,
+    price: 1999,
+    hourly: 250,
+    seats: 5,
+    transmission: "Automatic",
+    fuel: "Petrol",
+    ac: true,
+    km: 180,
+    extraKm: 12,
+    deposit: 4000,
+    rating: 4.7,
+    reviews: 67,
+    image: "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=1200&q=85",
+    gallery: [
+      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=1200&q=85"
+    ],
+    features: ["Automatic", "Premium Audio", "Rear Camera", "Power Steering", "ABS", "Air Conditioning"]
+  },
+  {
+    id: "dzire-zxi",
+    name: "Maruti Dzire ZXI",
+    brand: "Maruti Suzuki",
+    model: "Dzire ZXI",
+    year: 2023,
+    price: 1399,
+    hourly: 160,
+    seats: 5,
+    transmission: "Manual",
+    fuel: "Petrol",
+    ac: true,
+    km: 150,
+    extraKm: 10,
+    deposit: 3000,
+    rating: 4.6,
+    reviews: 58,
+    image: "https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=1200&q=85",
+    gallery: [
+      "https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=1200&q=85"
+    ],
+    features: ["Spacious Boot", "Bluetooth", "USB Charging", "Power Steering", "ABS", "Air Conditioning"]
+  },
+  {
+    id: "fortuner-4x2",
+    name: "Toyota Fortuner",
+    brand: "Toyota",
+    model: "Fortuner 4x2",
+    year: 2023,
+    price: 4999,
+    hourly: 600,
+    seats: 7,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    ac: true,
+    km: 200,
+    extraKm: 20,
+    deposit: 7000,
+    rating: 4.9,
+    reviews: 44,
+    image: "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=1200&q=85",
+    gallery: [
+      "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=1200&q=85"
+    ],
+    features: ["7 Seats", "Automatic", "Premium SUV", "Cruise Control", "ABS", "Air Conditioning"]
+  },
+  {
+    id: "ertiga-zxi",
+    name: "Maruti Ertiga ZXI",
+    brand: "Maruti Suzuki",
+    model: "Ertiga ZXI",
+    year: 2023,
+    price: 1799,
+    hourly: 220,
+    seats: 7,
+    transmission: "Manual",
+    fuel: "Petrol",
+    ac: true,
+    km: 180,
+    extraKm: 11,
+    deposit: 4000,
+    rating: 4.7,
+    reviews: 51,
+    image: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=85",
+    gallery: [
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=85"
+    ],
+    features: ["7 Seats", "Family Friendly", "Bluetooth", "USB Charging", "ABS", "Air Conditioning"]
+  }
+];
+
+export const getCar = (id) => cars.find((car) => car.id === id) || cars[0];
